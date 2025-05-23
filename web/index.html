@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>IoT</title>
+</head>
+<body>
+    <h1>IoT 제어</h1>
+    
+    <h3>LED</h3>
+    <button onclick="cmd('LED_ON')">켜기</button>
+    <button onclick="cmd('LED_OFF')">끄기</button>
+    밝기: <input type="number" id="bright" min="0" max="2" value="1">
+    <button onclick="setBright()">설정</button>
+    
+    <h3>세그먼트</h3>
+    숫자: <input type="number" id="num" min="0" max="9" value="0">
+    <button onclick="showNum()">표시</button>
+    <br>
+    카운트: <input type="number" id="count" min="1" max="9" value="3">
+    <button onclick="startCount()">시작</button>
+    <button onclick="cmd('SEGMENT_STOP')">중지</button>
+    
+    <h3>부저</h3>
+    <button onclick="cmd('BUZZER_PLAY')">재생</button>
+    <button onclick="cmd('BUZZER_STOP')">중지</button>
+    
+    <h3>조도센서</h3>
+    <button onclick="cmd('CDS_READ')">읽기</button>
+    <button onclick="cmd('CDS_AUTO_START')">자동시작</button>
+    <button onclick="cmd('CDS_AUTO_STOP')">자동중지</button>
+    
+    <h3>기타</h3>
+    <button onclick="cmd('ALL_OFF')">모두끄기</button>
+    <button onclick="cmd('HELP')">도움말</button>
+    
+    <hr>
+    <div id="result">결과</div>
+
+    <script>
+        function cmd(command) {
+            document.getElementById('result').innerHTML = command + ' 실행중...';
+            
+            fetch('/api/command', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ command: command })
+            })
+            .then(r => r.json())
+            .then(d => {
+                document.getElementById('result').innerHTML = 
+                    command + ' -> ' + d.response;
+            })
+            .catch(e => {
+                document.getElementById('result').innerHTML = '오류: ' + e;
+            });
+        }
+
+        function setBright() {
+            cmd('LED_BRIGHTNESS ' + document.getElementById('bright').value);
+        }
+
+        function showNum() {
+            cmd('SEGMENT_DISPLAY ' + document.getElementById('num').value);
+        }
+
+        function startCount() {
+            cmd('SEGMENT_COUNTDOWN ' + document.getElementById('count').value);
+        }
+    </script>
+</body>
+</html>
