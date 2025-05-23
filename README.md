@@ -163,7 +163,9 @@ http://라즈베리ip주소:8080     # 웹서버 실행
 
 ### 1. 웹서버
 ![image](https://github.com/user-attachments/assets/11edc116-27ce-4fb2-a73d-f80e5d524653)
-아래에 각 기능에 대한 설명
+- led, segment, buzzer, cds 각각 제어 가능
+- 모든 기능 끄는 기능 추가
+- 하단에 각 기능이 성공하였는지 실패하였는지 출력 됨
 
 ### 2. 모든 기능 종료
 ![심화실습평가_남윤서(14)](https://github.com/user-attachments/assets/142d14a3-f3f9-4709-a3ae-ae9e6020b593)
