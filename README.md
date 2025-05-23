@@ -112,7 +112,8 @@ http://라즈베리ip주소:8080     # 웹서버 실행
 ### 2. SEGMENT
 ![image](https://github.com/user-attachments/assets/d60f360a-8889-4a9b-b2a8-73be2e59021f)
 
-![20250523_154633(2)](https://github.com/user-attachments/assets/70de5d80-be18-4986-819c-31c5a0bd1eca)
+![심화실습평가_남윤서](https://github.com/user-attachments/assets/f3f0a60d-e665-4702-a99b-abd40f68c096)
+
 - `SEGMENT_DISPLAY`: 입력한 숫자 출력
 
 ![20250523_154633(3) (1)](https://github.com/user-attachments/assets/9a7a7c80-041b-4340-b186-6d6727df0476)
