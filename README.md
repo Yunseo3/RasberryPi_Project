@@ -1,5 +1,3 @@
-![심화실습평가_남윤서(14)](https://github.com/user-attachments/assets/b2e3d0dd-d770-4938-bfb6-470dc7be293e)# RaspberryPi_Project
-
 라즈베리파이를 이용한 IoT 장치 제어 시스템입니다. 웹 인터페이스와 TCP 소켓을 통해 LED, 7세그먼트, 부저, 조도센서를 제어할 수 있습니다.
 
 ## 프로젝트 개요
