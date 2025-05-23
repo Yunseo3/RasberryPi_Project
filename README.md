@@ -1,4 +1,4 @@
-# RaspberryPi_Project
+![심화실습평가_남윤서(14)](https://github.com/user-attachments/assets/b2e3d0dd-d770-4938-bfb6-470dc7be293e)# RaspberryPi_Project
 
 라즈베리파이를 이용한 IoT 장치 제어 시스템입니다. 웹 인터페이스와 TCP 소켓을 통해 LED, 7세그먼트, 부저, 조도센서를 제어할 수 있습니다.
 
@@ -168,7 +168,9 @@ http://라즈베리ip주소:8080     # 웹서버 실행
 아래에 각 기능에 대한 설명
 
 ### 2. 모든 기능 종료
-![image](https://github.com/user-attachments/assets/49247ff1-aae0-4a3f-a6a5-7c188ada9e89)
+![심화실습평가_남윤서(14)](https://github.com/user-attachments/assets/142d14a3-f3f9-4709-a3ae-ae9e6020b593)
+![심화실습평가_남윤서(16)](https://github.com/user-attachments/assets/27c7c003-e8b7-498d-ac5d-dfaf75bf8e7a)
+
 - `ALL_OFF`: 모든 기능 꺼짐
 
 ## 확장 가능성
