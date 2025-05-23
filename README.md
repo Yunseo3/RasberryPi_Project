@@ -124,10 +124,12 @@ http://라즈베리ip주소:8080     # 웹서버 실행
 ### 3. BUZZER
 ![image](https://github.com/user-attachments/assets/4bb7588a-d6cc-42f4-b2fa-2ea0099a9058)
 
-![20250523_154654](https://github.com/user-attachments/assets/0ed15602-e8cc-4970-9c09-547b97768ed7)
+![심화실습평가_남윤서(11)](https://github.com/user-attachments/assets/d92a0f25-b826-46b5-bb37-7934dd4506f3)
+
 - `BUZZER_PLAY`: 음악 출력
 
-![image](https://github.com/user-attachments/assets/db23dee0-0a6b-4a81-8f50-d6e6b06f0948)
+![심화실습평가_남윤서(11)](https://github.com/user-attachments/assets/e9d64a54-31c1-4acf-b75b-afa6078efbbf)
+
 - `BUZZER_STOP`: 음악 종료
 
 ### 4. CDS (조도센서)
