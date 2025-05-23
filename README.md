@@ -133,10 +133,12 @@ http://라즈베리ip주소:8080     # 웹서버 실행
 ### 4. CDS (조도센서)
 ![image](https://github.com/user-attachments/assets/f04f1457-edf5-4c32-9178-35216af688bf)
 
-![20250523_154654(1)](https://github.com/user-attachments/assets/d53045b4-444f-4ce6-b0ab-ac3c12b7b10f)
+![심화실습평가_남윤서(4)](https://github.com/user-attachments/assets/144a785a-9cff-4298-bbe5-5daa44627c0d)
 - `CDS_READ`: 값 읽기
 
-![20250523_154730](https://github.com/user-attachments/assets/e3d004d3-d802-4b93-9603-b5383887fa27)
+![심화실습평가_남윤서(5)](https://github.com/user-attachments/assets/e9edfd60-4828-4bc6-bbd7-70be29ce50a5)
+![심화실습평가_남윤서(4)](https://github.com/user-attachments/assets/144a785a-9cff-4298-bbe5-5daa44627c0d)
+
 - `CDS_AUTO_START`: 밝지 않으면 LED가 켜집니다. 밝으면 LED가 꺼집니다.
 - `CDS_AUTO_STOP`: 끄기
 
