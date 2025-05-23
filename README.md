@@ -116,7 +116,8 @@ http://라즈베리ip주소:8080     # 웹서버 실행
 
 - `SEGMENT_DISPLAY`: 입력한 숫자 출력
 
-![20250523_154633(3) (1)](https://github.com/user-attachments/assets/9a7a7c80-041b-4340-b186-6d6727df0476)
+![심화실습평가_남윤서(1)](https://github.com/user-attachments/assets/e5bbb476-08ce-4960-af66-b36a327fa784)
+
 - `SEGMENT_COUNTDOWN`: 카운트 다운 시작, 0이 되면 자동으로 부저가 울림
 - `SEGMENT_STOP`: 카운트다운 중지
 
