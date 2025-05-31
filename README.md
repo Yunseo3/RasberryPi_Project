@@ -85,6 +85,7 @@ make
 sudo ./iot_server -d          # 데몬모드
 telnet localhost 8080         # 클라이언트 실행
 http://라즈베리ip주소:8080     # 웹서버 실행
+HELP                          # 도움말에 맞추어 실행하기
 ```
 
 ## 기능 상세
